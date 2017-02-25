@@ -18,12 +18,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Nunito', sans-serif;
   color: #2098d1;
 }
+h1 {
+  font-size: 5em;
+}
+h2 {
+  font-size: 2em;
+}
 /* Sections */
 .section {
   padding: 0 5em;
-}
-.section.about {
-  background: url(../images/bg-about.jpg) no-repeat center center fixed;
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -35,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 
   text-align: center;
 }
-.section.about::before {
+.section::before {
   content: '';
   position: absolute;
   top: 0;
@@ -45,13 +48,108 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
-.section.about .name {
-  font-size: 5em;
+.section.about {
+  background: url(../images/bg-about.jpg) no-repeat center center;
 }
-.section.about .position {
-  font-size: 2em;
-  margin: 0.3em 0;
+.section.skills {
+  background: url(../images/bg-skills.jpg) no-repeat center center;
 }
-.section.about .description {
 
+.group-skill {
+
+}
+.item-skill {
+
+}
+.name-skill {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+.percent {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  background-color: rgba(241, 241, 241, 0.7);
+  height: 20px;
+  border-radius: 4px;
+  position: relative;
+}
+.percent::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 4px 0 0 4px;
+}
+.percent.p-10::before {
+  width: 10%;
+}
+.percent.p-20::before {
+  width: 20%;
+}
+.percent.p-30::before {
+  width: 30%;
+}
+.percent.p-40::before {
+  width: 40%;
+}
+.percent.p-50::before {
+  width: 50%;
+}
+.percent.p-60::before {
+  width: 60%;
+}
+.percent.p-70::before {
+  width: 70%;
+}
+.percent.p-80::before {
+  width: 80%;
+}
+.percent.p-90::before {
+  width: 90%;
+}
+.percent.p-100::before {
+  width: 100%;
+  border-radius: 4px;
+}
+.item-skill.html .percent::before{
+  background-color: #F06736;
+}
+.item-skill.css .percent::before{
+  background-color: #30AADD;
+}
+.item-skill.js .percent::before{
+  background-color: #EDC022;
+}
+.item-skill.php .percent::before{
+  background-color: #676B9C;
+}
+.item-skill.ruby .percent::before{
+  background-color: #BD0D00;
+}
+.item-skill.sass .percent::before{
+  background-color: #CB6599;
+}
+.item-skill.haml .percent::before{
+  background-color: #FF3735;
+}
+.item-skill.wp .percent::before{
+  background-color: #22769B;
+}
+.item-skill.ror .percent::before{
+  background-color: #BD0D00;
+}
+.item-skill.jquery .percent::before{
+  background-color: #19A2C9;
+}
+.item-skill.angular .percent::before{
+  background-color: #E23237;
+}
+.item-skill.react .percent::before{
+  background-color: #61DAFB;
+}
+.item-skill.bootstrap .percent::before{
+  background-color: #583F7E;
 }
