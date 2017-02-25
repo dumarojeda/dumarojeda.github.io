@@ -26,7 +26,6 @@ h2 {
 }
 /* Sections */
 .section {
-  padding: 0 5em;
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
