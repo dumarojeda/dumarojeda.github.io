@@ -1,0 +1,57 @@
+/* Tags */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+::selection {
+  background: rgba(255, 255, 255, 0.5);
+  color: #FFF;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #F6F6F6;
+  font-size: 16px;
+  line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nunito', sans-serif;
+  color: #2098d1;
+}
+/* Sections */
+.section {
+  padding: 0 5em;
+}
+.section.about {
+  background: url(../images/bg-about.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+
+  text-align: center;
+}
+.section.about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+.section.about .name {
+  font-size: 5em;
+}
+.section.about .position {
+  font-size: 2em;
+  margin: 0.3em 0;
+}
+.section.about .description {
+
+}
