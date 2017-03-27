@@ -36,6 +36,7 @@ h2 {
   z-index: 1;
 
   text-align: center;
+  min-height: 100vh;
 }
 .section::before {
   content: '';
@@ -62,12 +63,12 @@ h2 {
 .section.contact {
   background: url(../images/bg-contact.jpg) no-repeat center center;
 }
-
-.group-skill {
-
-}
-.item-skill {
-
+.container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .name-skill {
   display: inline-block;
@@ -160,4 +161,10 @@ h2 {
 }
 .item-skill.bootstrap .percent::before{
   background-color: #583F7E;
+}
+.item-education {
+  text-align: left;
+  padding: 0;
+  margin: 0 0 1em;
+  list-style: none;
 }
