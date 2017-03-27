@@ -9,5 +9,5 @@ Thumbs.db
 # Application specific files
 node_modules
 npm-debug.log
-bower_components
+
 etc
