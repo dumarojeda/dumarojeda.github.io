@@ -36,7 +36,7 @@ h2 {
   z-index: 1;
 
   text-align: center;
-  min-height: 100vh;
+  padding: 4em 0;
 }
 .section::before {
   content: '';
@@ -62,13 +62,6 @@ h2 {
 }
 .section.contact {
   background: url(../images/bg-contact.jpg) no-repeat center center;
-}
-.container {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
 .name-skill {
   display: inline-block;
@@ -167,4 +160,18 @@ h2 {
   padding: 0;
   margin: 0 0 1em;
   list-style: none;
+}
+/* Media Query */
+@media (min-width: 750px) {
+  .section {
+    min-height: 100vh;
+    padding: 0;
+  }
+  .centering {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
