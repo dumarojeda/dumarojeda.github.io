@@ -160,18 +160,18 @@ strong {
 .item-skill.bootstrap .percent::before{
   background-color: #583F7E;
 }
-.item-education, .item-project ul {
+.item-education, .item-project ul, .details-contact {
   text-align: left;
   padding: 0;
   margin: 0 0 1em;
   list-style: none;
 }
-.item-education li {
+.item-education li, .details-contact li {
   position: relative;
   padding: 0 0 0 2em;
   margin-bottom: 0.5em;
 }
-.item-education li i {
+.item-education li i, .details-contact li i {
   position: absolute;
   top: 4px;
   left: 0;
