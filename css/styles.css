@@ -63,12 +63,12 @@ h2 {
 .name-skill {
   display: inline-block;
   vertical-align: top;
-  width: 50%;
+  width: 48%;
 }
 .percent {
   display: inline-block;
   vertical-align: top;
-  width: 50%;
+  width: 48%;
   background-color: rgba(241, 241, 241, 0.7);
   height: 20px;
   border-radius: 4px;
