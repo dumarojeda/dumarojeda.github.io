@@ -14,6 +14,9 @@ body {
   font-size: 16px;
   line-height: 24px;
 }
+img {
+  max-width: 100%;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Nunito', sans-serif;
   color: #2098d1;
@@ -23,6 +26,8 @@ h1 {
 }
 h2 {
   font-size: 2em;
+}
+strong {
 }
 /* Sections */
 .section {
@@ -155,20 +160,24 @@ h2 {
 .item-skill.bootstrap .percent::before{
   background-color: #583F7E;
 }
-.item-education {
+.item-education, .item-project ul {
   text-align: left;
   padding: 0;
   margin: 0 0 1em;
   list-style: none;
 }
-.item-education li {
+.item-education li, .item-project li {
   position: relative;
   padding: 0 0 0 2em;
+  margin-bottom: 0.5em;
 }
-.item-education li i {
+.item-education li i, .item-project li i {
   position: absolute;
   top: 4px;
   left: 0;
+}
+.item-project li a {
+  color: #FFF;
 }
 /* Media Query */
 @media (min-width: 750px) {
