@@ -53,6 +53,15 @@ h2 {
 .section.skills {
   background: url(../images/bg-skills.jpg) no-repeat center center;
 }
+.section.education {
+  background: url(../images/bg-education.jpg) no-repeat center center;
+}
+.section.projects {
+  background: url(../images/bg-projects.jpg) no-repeat center center;
+}
+.section.contact {
+  background: url(../images/bg-contact.jpg) no-repeat center center;
+}
 
 .group-skill {
 
