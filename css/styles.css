@@ -166,18 +166,21 @@ strong {
   margin: 0 0 1em;
   list-style: none;
 }
-.item-education li, .item-project li {
+.item-education li {
   position: relative;
   padding: 0 0 0 2em;
   margin-bottom: 0.5em;
 }
-.item-education li i, .item-project li i {
+.item-education li i {
   position: absolute;
   top: 4px;
   left: 0;
 }
 .item-project li a {
   color: #FFF;
+}
+.item-project li i {
+  margin: 0 5px 0 0;
 }
 /* Media Query */
 @media (min-width: 750px) {
